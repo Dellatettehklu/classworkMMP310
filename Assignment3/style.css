@@ -1,0 +1,84 @@
+body{
+    background-color:#91147e;
+}
+
+#container{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#text h2{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 1em;
+   display:inline-block;
+}
+#text{
+    margin-top: -10px;
+    margin-left: 5px;
+    font-family:Helvetica, Arial, Sans-Serif;
+    color:#271491;
+}
+
+input{
+  margin-top: -12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #271491;
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color:#661491;
+    color: #fff;
+}
+#date{
+    margin-top: -30px;
+    padding-top: 30px;
+    width: 200px;
+    height: 9px;
+    margin-left: 20px;
+
+}
+#hour{
+    margin-top: -30px;
+    padding-top: 30px;
+    width: 200px;
+    height: 9px;
+    margin-left: 20px;
+}
+
+
+#minutes{
+    margin-top: -30px;
+    padding-top: 30px;
+    width: 200px;
+    height: 9px;
+    margin-left: 20px;
+
+}
+#seconds{
+    margin-top: -10px;
+    padding-top: 30px;
+    width: 200px;
+    height: 9px;
+    margin-left: 20px;
+
+}
+#name{
+    margin-top: -30px;
+    padding-top: 30px;
+    width: 200px;
+    height: 9px;
+    margin-left: 20px;
+
+}
+#message{
+    margin-left: 20px;
+    color: #661491;
+}

@@ -1,0 +1,90 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+#sha {
+
+    left:100px;
+    top:100px;
+}
+#icirc {
+  position: absolute;
+    border-style: solid;
+    border: 3px;
+    border-radius:100px;
+    width:80px;
+    height:80px;
+    background-color:white;
+    margin-top: 60px;
+    margin-left: 40px;
+    z-index:1;
+}
+#ocirc {
+
+  position: absolute;
+    border-style: solid;
+    border: 3px;
+    border-radius:200px;
+    width:230px;
+    height:230px;
+    background-color:fuchsia;;
+    margin-top: 10px;
+}
+
+#eight {
+position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size:350%;
+    z-index:2;
+}
+#heading{
+    margin-top: 40px;
+    color: fuchsia;
+    font-size: 1.5em;
+}
+#sub{
+    margin-top: 30px;
+    font-size: 1em;
+}
+#container{
+    width: 300px;
+    height: 450px;
+    margin-left: 550px;
+}
+
+input{
+  width: 500px;
+  padding: 5px 15px;
+  background: #fff;
+  border: 2px solid #ddd;
+  outline: none;
+    margin-top: 250px;
+    margin-left: -85px;
+}
+input:focus {
+  border: 2px solid #888;
+}
+button {
+  background: #fff;
+  color: #666;
+  border: 2px solid #666;
+  border-radius: 8px;
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 5px 15px;
+  outline: none;
+}
+button:hover {
+  background:#d3d3d3;
+  color: #222;
+  border: 2px solid #222;
+  cursor: pointer;
+}
+#message{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #661491;
+    font-size:1.1em;
+
+}
