@@ -1,10 +1,4 @@
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> refs/remotes/origin/master
 function gradeTest() {
     //variables with global implications
    var totalQuestions = 5;
@@ -117,8 +111,3 @@ function gradeTest() {
 
 
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> refs/remotes/origin/master
