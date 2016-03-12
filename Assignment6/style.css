@@ -1,0 +1,59 @@
+body{
+    background-image:url(images/shop.jpg);
+
+}
+
+#container{
+   background-color: #A93542;
+    height: 400px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 480px;
+}
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+form{
+    display: inline-block;
+}
+
+#btn {
+    display: inline-block;
+    height:20px;
+    width:30px;
+    background-color:#fff;
+    font-family: 'Lora', serif;
+    font-weight: 200;
+    color:#A93542;
+    text-align:center;
+    margin-top:2px;
+
+}
+
+.ShoppingCart {
+    display: block;
+    font-family: 'Lora', serif;
+    font-weight:300;
+    color:#fff;
+    margin-left: 150px;
+
+}
+
+.list {
+      font-family: 'Lora', serif;
+      color:#fff;
+}
+
+input{
+   margin-right: 10px;
+}
+
+.letter{
+   margin-left: 90px;
+}
