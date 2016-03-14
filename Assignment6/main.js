@@ -12,3 +12,9 @@ $(document).ready(function(){
         $(this).parent().remove();
     });
 })
+
+
+$(document).on('click', '#resetButton',function(){
+    $('#Listform').remove();
+    submissions=0;
+});

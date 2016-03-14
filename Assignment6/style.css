@@ -5,22 +5,25 @@ body{
 
 #container{
    background-color: #A93542;
-    height: 400px;
+    height: 800px;
     width: 400px;
     margin-top: 90px;
     margin-left: 480px;
+    padding-top: 10px;
+    border: 2px solid #ff7b86;
 }
 h1{
-    font-family: 'Lora', serif;
+    font-family:futura;
     font-weight: 400;
     text-align: center;
     color: #fff;
-
+    margin-top: 70px;
 
 }
 
 form{
     display: inline-block;
+    margin-top: 50px;
 }
 
 #btn {
@@ -43,6 +46,7 @@ form{
     color:#fff;
     margin-left: 150px;
 
+
 }
 
 .list {
@@ -52,8 +56,23 @@ form{
 
 input{
    margin-right: 10px;
+    padding-top: 5px;
 }
 
 .letter{
    margin-left: 90px;
+}
+
+input.letter{
+    margin-bottom: 40px;
+}
+
+hr{
+  width: 50%;
+    margin-top: -10px;
+}
+
+#clear-list{
+    margin-left: 130px;
+
 }

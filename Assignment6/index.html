@@ -11,16 +11,23 @@
     <body>
       <div id="container">
         <h1>Shopping List</h1>
-            <form name="Listform">
+          <hr>
+            <form  id="Listform">
                <div class="ShoppingCart">No. of Items</div>
-                <input type="text" class="letter"   name="Shoppingcart" maxlength="20" size="20"></input>
+                <input type="text" class="letter"   name="Shoppingcart" maxlength="25" size="25">
                 <div class="ShoppingCart">Product</div>
-                <input type="text" class="letter" name="checkbox"></input>
+                <input type="text" class="letter" name="checkbox" maxlength="25" size="25">
+                 <input type="button" id="btn" value="+">
             </form>
-                <input type="button" id="btn" value="+">
+
                 <br>
                 <ul class="list"></ul>
+
+          <div id="clear-list">
+          <button type="reset" onclick id="resetButton">Start Over</button>
+          </div>
     </div>
+
         <script src="main.js"></script>
     </body>
     </html>
