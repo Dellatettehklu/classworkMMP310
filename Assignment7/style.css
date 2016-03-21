@@ -1,0 +1,37 @@
+
+body{
+     font-family: 'Lora', serif;
+}
+h2{
+   color:#DADADC;
+}
+
+p{
+  color: #DADADC;
+}
+#container{
+    text-align: center;
+    background-color:#09108D;
+    height:500px;
+    width: 400px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+.button{
+    display: block;
+    margin-top: 20px;
+    margin-left: 170px;
+    background-color: #fff;
+    border-radius: 3px;
+
+}
+#over{
+   display: inline;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+input{
+    border: 1px solid#000;
+}
