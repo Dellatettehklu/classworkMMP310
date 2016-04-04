@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8"/>
+	<title>MMP 310 Midterm</title>
+	<link rel="stylesheet" type="text/css" href="lab.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body ng-cloak class="ng-cloak" >
+	<div class="wrapper">
+		<div class="header">
+			<div class="main-logo">
+        <h1 class="tag-line">MadLibs</h1>
+
+			</div>
+		</div>
+		<!-- FORM -->
+		<form class="interaction" ng-controller="LibsCtrl" ng-submit='submitted=true; submit();' name="myForm">
+			<!-- Form Inputs -->
+			<div class="animate-form" ng-hide="formInputs">
+				<h2 ng-view class="view-animation">Provide the following words:</h2>
+				<div class="info">
+					<input type="text" placeholder="female name"         ng-model="data.firstName"           name="myName" 					required="">
+					<input type="text" placeholder="noun 1"           ng-model="data.noun1"                 name="myNoun1" 			    required="">
+					<input type="text" placeholder="adjective 1"        ng-model="data.adjective1"         name="myAdjective1"		    required="">
+					<input type="text" placeholder="noun 2"           ng-model="data.noun2"                   name="myNoun2" 		         required="">
+					<input type="number" placeholder="number 1"           ng-model="data.number1"           name="myNumber1" 		      required="">
+					<input type="text" placeholder="adjective 2"       ng-model="data.adjective2"            name="myAdjective2" 	      required="">
+					<input type="text" placeholder="male name"         ng-model="data.secondName"          name="mySecName" 			required="">
+					<input type="text" placeholder="noun 3"            ng-model="data.noun3"                name="myNoun3" 		      required="">
+					<input type="text" placeholder="part of the body"   ng-model="data.partBody"           name="myBody" 		        required="">
+					<input type="text" placeholder="plural noun 1"      ng-model="data.pluralnoun1"           name="myPluralnoun1" 		required="">
+					<input type="text" placeholder="noun 4"           ng-model="data.noun4"                name="myNoun4" 		        required="">
+					<input type="text" placeholder="adjective 3"           ng-model="data.adjective3"           name="myAdjective3" 		required="">
+					<input type="text" placeholder="noun 5"           ng-model="data.noun5"                name="myNoun5" 		            required="">
+					<input type="number" placeholder="number 2"           ng-model="data.number2"           name="myNumber2" 		    required="">
+					<input type="text" placeholder="adjective 4"           ng-model="data.adjective4"           name="myAdjective4" 		required="">
+					<input type="text" placeholder="plural noun 2"           ng-model="data.pluralnoun2"           name="myPluralnoun2" 		required="">
+					<input type="text" placeholder="noun 6"           ng-model="data.noun6"                 name="myNoun6" 		           required="">
+
+				</div>
+				<button class="btn-generate" type="submit">Generate My Mad Lib</button>
+			</div>
+
+			<!-- MadLib Generated Content -->
+			<div class="content animate-content" ng-hide="madLib">
+				<p>
+					<span> Friends, this is a surprise party for</span><span class="name">{{data.firstName}}</span><span>we are hear to celebrate her </span> <span>{{data.noun#1}}</span>.<span>All of her most</span> <span>{{data.adjective#1}}</span>. <span>friends are here, including me, her devoted and
+faithful </span>. <span>{{data.noun#2}}</span> I must say that she doesn't look a day over <span>{{data.number#1}}</span> Naturally, we have some<span>{{data.adjective#2}}</span>, presents for her.
+					<br>
+				</p>
+	 			<p>
+					<span class="name">{{data.secondName}}</span>  <span>bought her a beautiful copper</span> <span>{{data.noun#3}}</span> that she can wear on her lovely <span>{{data.partBody}}</span> nd our hostess got her a dozen <span>{{data.pluralnoun#1}}</span>that she can hang in her.<span>{{data.noun#4}}</span> with <span>{{data.adjective#3}}</span> And we had the bakery send up a huge <span>{{data.noun#5}}</span> <span>{{data.number#2}}</span>candles on it.
+					<span> We all want to wish her a very</span> <span>{{data.adjective#4}}</span>birthday and many happy<span>{{data.pluralnoun#2}}</span>
+Now, let's all sing together: "Happy <span>{{data.noun#6}}</span> to you!".
+				</p>
+				<button class="btn-start-over" type="reset" ng-click="startOver();">Start Over</button>
+			</div>
+		</form>
+	</div>
+
+	 <script src="try.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
