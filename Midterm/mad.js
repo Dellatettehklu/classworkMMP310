@@ -67,7 +67,7 @@ $("#first").hide();
 
  $("#Restart").show();
 
-  $("#final").append("Friends, this is a surprise party for " + FirstName +  ". we are hear to celebrate you, " + noun1 + "All of your most  treasured" + adjective1 +   " friends are here, including me, your devoted and faithful friend." +  noun2 + " I must say that you don't look a day over " +  number1 + "Naturally, We have some " + adjective2 + "  presents for you. </br>, " +SecondName + "bought you a beautiful copper" +  noun3 + " that you can wear on your lovely" + partBody + " And our hostess got you a dozen" + pluralNoun1 + "  that you can hang in your" + noun4 + "  And we had the bakery send up a huge" + adjective3 + noun5 +  "  with" +number2 + "  candles on it. We all want to wish you a " +adjective4 + " happy birthday and many more blessings . Now, let's all sing together: Happy" +  noun6 + " day to you!")
+  $("#final").append("Friends, this is a surprise party for " + FirstName +  ". we are here to celebrate you, " + noun1 + " All of your most  treasured" + adjective1 +   "  friends are here, including me, your devoted and faithful friend." +  noun2 + "  I must say that you don't look a day over " +  number1 + " Naturally, We have some " + adjective2 + "  presents for you. </br>, " +SecondName + " bought you a beautiful copper" +  noun3 + "  that you can wear on your lovely " + partBody + "  And our hostess got you a dozen " + pluralNoun1 + "  that you can hang in your " + noun4 + "  And we had the bakery send up a huge " + adjective3 +  noun5 +  "  with " +number2 + "  candles on it. We all want to wish you a " +adjective4 + " happy birthday and many more blessings . Now, let's all sing together: Happy " +  noun6 + "  day to you!")
 
 
 
