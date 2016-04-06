@@ -14,6 +14,7 @@ body{
    width: 1400px;
     height: 1000px;
     margin-top: 40px;
+
 }
 
 
@@ -23,7 +24,7 @@ h1 {
 		font-size: 40px;
 		color: #FF3D96;
       text-align: center;
-    margin-left: 250px;
+    margin-left: 120px;
     margin-top: -20px;
 }
 h2{
@@ -49,24 +50,29 @@ h2{
 
 input {
 		font-family: Courier;
-        height: 5px;
+        height: 15px;
 		border: 2px solid #FF3D96;
 		-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
 		-moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
 		box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
 		padding: 5px;
 		background: rgba(255, 255, 255, 0.5);
-		margin: 0 0 3px 0;
-        margin-left: 290px;
+		margin-top: -30px;
+        margin-left: 120px;
 }
 
 p{
   color: #FF3D96;
-    margin-left: 290px;
+    margin-left: 120px;
 
 }
 
 button{
 
-    margin-left: 290px;
+    margin-left: 120px;
+}
+
+#first{
+
+	margin-top: -40px;
 }
