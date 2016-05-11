@@ -4,22 +4,18 @@
 	<meta charset="utf-8"/>
 	<title>MMP 310 Finals</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapiccs.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
 
 <div class="container">
- <h1>Connect 4</h1>
-        <p><span id="player"></span>
-        <div class="actions"><button onrclick="onResetClick()">Start Again</button></div></p>
+ <h2>Connect 4 is a two-player connection game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to connect four of one's own discs of the same color next to each other vertically, horizontally, or diagonally before your opponent. </h2>
+        <p><span id="player"></span><div class="actions"><button onclick="onResetClick()">Start Again</button></div></p>
     <div id="board">
-    <div id="pieces"></div>
-  <img src="http://www.tigerjython.ch/_sprites/connectbg.png"
-       onclick="onBoardClicked(event)"
-       onmousemove="onBoardMove(event)"
-       />
-</div>
+            <div id="pieces"></div>
+            <img src="http://www.nonkit.com/smallbasic.files/Connect4Board.png"onclick="onBoardClicked(event)"onmousemove="onBoardMove(event)"/>
+    </div>
 
 
 </div>

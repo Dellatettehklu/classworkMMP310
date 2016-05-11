@@ -1,4 +1,4 @@
-var STREAK = 4;
+var STREAK = 3;
 var EMPTY = 0;
 var RED = 1;
 var YELLOW = 2;
@@ -145,7 +145,7 @@ function playMove(row, column, playedPiece, color) {
     finished = true;
   } else if (checkDraw(piecesPlayed)) {
     DRAW_SOUND.play();
-    playerSpan.textContent = "It's a draw";
+    playerSpan.textContent = "It's a Tie";
     finished = true;
   } else {
     nextTurn();
