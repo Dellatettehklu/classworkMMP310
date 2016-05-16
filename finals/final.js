@@ -53,7 +53,8 @@ function reset() {
   if (gamePieces.length > 0) {
     for (var i = 0; i < gamePieces.length; i++) {
       var piece = gamePieces[i];
-      piece.style.top = "1200px";
+      piece.style.top = "1500px";
+       piece.style.bottom ="1000px";
     }
     CLEAR_SOUND.play();
   }
