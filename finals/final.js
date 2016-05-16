@@ -1,3 +1,4 @@
+// setting varaibles for the game
 var STREAK = 3;
 var EMPTY = 0;
 var RED = 1;
@@ -9,16 +10,16 @@ var Y_SIZE = 80;
 var XOFF = 15;
 var YOFF = 6;
 var DIRS = [
-  [1, 0],
   [1, 1],
-  [0, 1],
+  [1, 0],
   [-1, 1],
+  [0, 1],
   [-1, 0],
   [-1, -1],
   [0, -1],
-  [1, 1]
+  [1, -1]
 ];
-
+//creating varaibles for different audio sounds used for the game.
 var WIN_SOUND = new Audio("http://www.freesfx.co.uk/rx2/mp3s/9/10060_1361272688.mp3");
 var DRAW_SOUND = new Audio("http://www.freesfx.co.uk/rx2/mp3s/9/10182_1367780534.mp3");
 var DROP_SOUNDS = [new Audio("http://www.freesfx.co.uk/rx2/mp3s/7/8668_1354102011.mp3"),
@@ -26,6 +27,7 @@ var DROP_SOUNDS = [new Audio("http://www.freesfx.co.uk/rx2/mp3s/7/8668_135410201
 ];
 var CLEAR_SOUND = new Audio("http://www.freesfx.co.uk/rx2/mp3s/7/8671_1354102012.mp3");
 
+//setting varaibles for the various elements used.
 var previewPiece;
 var piecesPlayed;
 var board = document.querySelector("#board");
@@ -112,7 +114,7 @@ function onBoardClicked(event) {
   if (finished) {
     return;
   }
-
+    // circles start from bottom
   var column = eventToColumn(event);
   var row = HEIGHT - 1;
   for (; row >= 0; row--) {
