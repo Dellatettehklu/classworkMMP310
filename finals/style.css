@@ -4,11 +4,7 @@ body {
   overflow: hidden;
     background-color: cornsilk;
 }
-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 h2 {
   font-family: sans-serif;
   text-align: center;
@@ -28,20 +24,30 @@ p {
   margin: 0 auto;
   width: 640px;
   height: 500px;
+
 }
 #pieces{
-    margin-top: 10%;
+
 }
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+
+}
+
 .actions {
-  margin-top: 6px;
+  margin-top: 4px;
   text-align: center;
 }
 .circle {
   position: absolute;
-  border-radius: 50%;
-  width: 58px;
-  height: 58px;
-  border: solid 6px rgba(0, 0, 0, 0.08);
+  border-radius: 60%;
+  width: 85px;
+  height: 85px;
+  border: solid 4px rgba(0, 0, 0, 0.08);
   transition: all 75ms;
 }
 .circle.falling {
