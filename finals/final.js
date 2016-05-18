@@ -122,8 +122,9 @@ window.onload = function() {
     }
 
     function hidePreview() {
+
       if (previewPiece) {
-        previewPiece.parentElement.removeChild(previewPiece);
+
         previewPiece = null;
       }
     }
