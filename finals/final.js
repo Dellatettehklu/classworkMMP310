@@ -210,7 +210,7 @@ window.onload = function() {
     function nextTurn() {
 
       turn = (turn === YELLOW) ? RED : YELLOW;
-      playerSpan.textContent = "Player " + turn + "'s turn";
+      playerSpan.textContent = "PLAYER " + turn + "'S TURN";
     }
 
     reset();
